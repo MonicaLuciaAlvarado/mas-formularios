@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+.formulario{
+  padding-top: 5vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.entrada{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vh;
+  background-color: rgba(245, 245, 220, 0.756);
+}
+label{
+  flex:0.8;
+}
+input{
+  flex:1.2;
+}
+.data{
+  margin: 0 auto;
+  width: 80%;
+  gap: 0.5vh;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  text-align: center;
+}
+.alerta{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  height: 2.5vh;
+  width: auto;
+  vertical-align:middle;
+  margin: 0 auto;
+}
+.paquete{
+  width: 50%;
+  height: 7vh;
+}
+.paquete2{
+  width: 50%;
+  height: 10vh;
+}
